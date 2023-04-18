@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Playable Piano</title>
-  <script src="script.js"></script>
+
+
 </head>
 
 <body>
@@ -15,7 +16,7 @@
     <header>
       <h2>Playable Piano</h2>
       <div class="column volume-slider">
-        <span>Volume</span><input type="range" min="0" max="1" value="0.5">
+        <span>Volume</span><input type="range" class="slider" min="0" max="100" value="50">
       </div>
       <div class="column keys-checkbox">
         <span>Show Keys</span><input type="checkbox" checked>
@@ -42,7 +43,7 @@
     </ul>
   </div>
 
-
+  <script src="script.js"></script>
 </body>
 
 </html>
