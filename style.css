@@ -41,7 +41,7 @@ header input {
   border-radius: 30px;
 }
 .volume-slider input {
-  accent-color: #fff;
+  accent-color: #c21010;
   
 }
 
@@ -59,7 +59,6 @@ header input {
 
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
-  appearance: none;
   width: 25px;
   height: 25px;
   border-radius: 50%; 
@@ -74,6 +73,8 @@ header input {
   background: #f9fafa;
   cursor: pointer;
 }
+
+
 
 .keys-checkbox input {
   height: 30px;
